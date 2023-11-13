@@ -1,0 +1,115 @@
+body{
+  /* background-color:rgb(241, 243, 246); */
+  background-color: rgb(219, 219, 247);
+}
+.flex-container{
+  display: flex;
+  direction: row;
+  margin: 40px;
+  align-content: center;
+  height: 820px;
+  justify-content: center;
+}
+.left-content{
+flex: 0.6;
+background-image:url("bluebackground.jpg");
+padding: 20px;
+border-radius: 15px;
+}
+.right-content{
+  background-color: white;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 15px;
+}
+.same-level{
+  display: flex;
+  direction: row;
+  justify-content: center;
+  line-height: 0%;
+  /* padding-left: 5px; */
+  margin: 2.5%;
+ font-size: small;
+  font-style: arial;
+}
+.same-level >h1{
+  flex-grow: 0.39;
+  color: darkslategray;
+}
+.same-level > p > a{
+  padding-top: 6px;
+  font-size: 15px;
+  line-height: 15px;
+  text-decoration: none;
+  color: darkslategray;
+}
+.right-content >form{
+text-indent: 4px;
+font-size: 20px;
+text-transform: capitalize;
+font-family: Arial;
+text-align: justify;
+padding-left: 25px;
+}
+.working-name > input {
+width: 500px;
+height: 40px;
+border: 2px solid rgb(123, 123, 253);
+border-radius: 10px;
+outline: 0;
+font-size: 20px;
+color:rgba(1, 1, 30, 0.584);
+background-color: lightgray;
+font: larger;
+}
+
+.working-name > select{
+  width: 505px;
+  height: 50px;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid  rgb(123, 123, 253);
+  background-color: lightgray;
+}
+.working-name>option{
+  text-align: justify;
+}
+.buttonup > button{
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  border: 2px solid blue;
+  color: white;
+  background-color: blue;
+  font-size: large;
+  margin-top: 6px;
+  cursor: pointer;
+  border: 0;
+}
+.buttonup > button:hover {
+  background-color: rgb(41, 41, 229);
+}
+
+.content-width{
+  justify-content: flex-start;
+}
+.left-container{
+  display: flex;
+  align-items: flex-start;
+  margin-left: 20px;
+  margin-top: 70px;
+}
+.info {
+  color: white;
+  margin-left: 30px;
+  flex: 1; /* Allow the info div to take up remaining space */
+}
+.left-container >img{
+  background-color: rgb(220, 251, 251);
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  width: 100px;
+  margin-top: 15px;
+
+}

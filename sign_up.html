@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="login-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <div class="flex-container">
+            <div class="left-content">
+                <div class="left-container">
+                <img src="icons8-services.svg" alt="engineering  icon">
+                <div class="info">
+                    <h2>Engineering Services</h2>
+                    <p>We provide you with services of your choice.</p>
+                </div>
+            </div>
+            <div class="left-container">
+                <img src="icons8-administrative-tools-80.png" alt="engineering  icon">
+                <div class="info">
+                    <h2>Pushing Boundaries</h2>
+                    <p>Breaking Barriers with Innovative Engineering Designs</p>
+                </div>
+            </div>
+            <div class="left-container">
+                <img src="maledev.png" alt="engineering  icon">
+                <div class="info">
+                    <h2>Engineering Marvels</h2>
+                    <p>Engineering Marvels: Where Creativity Meets Functionality"</p>
+                </div>
+            </div>
+            <div class="left-container">
+                <img src="icons8-support.svg" alt="engineering  icon">
+                <div class="info">
+                    <h2>Engineering Support</h2>
+                    <p>Building the Future: Innovative Solutions Engineered to Perfection.</p>
+                </div>
+            </div>
+            </div>
+        <div class="content-width">
+            <div class="right-content">
+                    <div class="same-level">
+                        <h1>Sign Up Page</h1>
+                        <p>Have an Account?<a href="login.html"> Sign In</a></p>
+                    </div>
+             
+                <form action="process_signup.php" method="post">
+                    <div class="working-name">
+        
+                            <label for="firstname">First Name</label><br>
+                    
+                        <input type="text" id="firstname" name="firstname"  required placeholder=" Enter Your First Name"><br><br>
+                        <label for="lastname">Last Name</label><br>
+                        <input type="text" id="lastname" name="lastname" placeholder=" Enter Your Last Name" required><br><br>
+                  
+                        <label for="email">Email Address</label><br>
+                        <input type="email" id="email" name="email" placeholder=" Enter your Email Address"  required><br><br>
+        
+                        <label for="phonenumber">Phone Number</label><br>
+                        <input type="tel" name="phonenumber" id="phonenumber" placeholder=" Phone Number"><br><br> 
+                        
+                        <label for="address">Address</label><br>
+                        <input type="text" id="address" name="address"placeholder=" Enter your Address" required><br><br>
+                        <label for="postcode">Postcodes</label><br>
+                        <input type="text" id="postcode" name="postcode"placeholder=" Enter your Postcode"  required><br><br>
+                       
+                    <label for="gender">Gender</label><br>
+                    <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    </select><br><br>
+                    </div>
+                    <div class="buttonup">
+                    <button>Sign Up</button>
+                    </div>
+                    
+            </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
