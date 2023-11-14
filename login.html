@@ -5,21 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="login-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="techny-signing-in-to-user-account.png" type="image/x-icon">
 </head>
 <body>
         <div class="container">
-                <h1>Login Page</h1>
-            <div>
-                <form >
-                    <label for="email">Email Address:</label>
-                    <input type="email" id="email" name="email" required><br><br>
-            
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" required><br><br>
-                    <input type="submit" name="submit" id="submit" value="Sign In">
-                    <input type="reset" value="Reset">
-               </form>
+            <div class="left-form-container">
+            </div>
+            <div class="right-form-container">
+                <div class="arrange-head">
+                    <h1>Login Page</h1>
+                    <p>please login to continue</p>
+                    <form action="process_signin.php" method="post">
+                        <div class="email-pass">
+                        <label for="email">Email Address</label><br>
+                        <input type="email" id="email" name="email" placeholder=" Email@gmail.com"required><br><br>
+                        <label for="password">Password</label><br>
+                        <input type="password" id="password" name="password"  placeholder=" Enter Password"required><br>
+                        </div>
+                        <p class="signup-work"><a href="sign_up.html">Sign Up to Register!</a></p>
+                    <div class="sign-in-button">
+                        <button>Sign In</button>
+                    </div>
+                    </form>
+                </div>
+                
             </div>
         </div>
 </body>
